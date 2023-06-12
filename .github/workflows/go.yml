@@ -22,8 +22,8 @@ jobs:
         cache: false
 
     - run: go version
-    - run: go get github.com/alecthomas/kingpin/v2
-    - run: go get github.com/processone/ejabberd-api
+    - run: go install github.com/alecthomas/kingpin@v2
+    - run: go install github.com/processone/ejabberd-api@latest
 
     - name: Build
       run: go build -v cmd/ejabberd/
