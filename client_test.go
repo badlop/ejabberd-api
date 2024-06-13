@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/processone/ejabberd-api"
+	"github.com/badlop/ejabberd-api"
 )
 
 func Test_GetToken(t *testing.T) {

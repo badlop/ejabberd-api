@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/processone/ejabberd-api"
+	"github.com/badlop/ejabberd-api"
 	"github.com/alecthomas/kingpin/v2"
 )
 
